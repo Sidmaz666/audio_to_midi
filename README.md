@@ -4,7 +4,7 @@ Complete Python FastAPI implementation of Audio to MIDI's transcription engine u
 
 ## Features
 
-- **Full Audio to MIDI compatibility**: Uses the exact same models and algorithms as the original C++ plugin
+- **Full Audio to MIDI compatibility**: Uses the exact same models and algorithms as the original C++ plugin [NeuralNote](https://github.com/DamRsn/NeuralNote)
 - **Comprehensive parameter control**: All transcription parameters from the UI are available via API
 - **MIDI export**: Returns note events as JSON and optionally as base64-encoded MIDI files
 - **CORS enabled**: Ready for web frontend integration
@@ -243,7 +243,7 @@ Audio to MIDI/
 
 ## Notes
 
-- The implementation faithfully replicates the C++ Audio to MIDI engine
+- The implementation faithfully replicates the C++ Audio to MIDI engine of [NeuralNote](https://github.com/DamRsn/NeuralNote)
 - All parameter defaults match the original plugin exactly
 - The CNN implementation uses manual convolution to match RTNeural behavior
 - Pitch bends are included in note events when enabled
